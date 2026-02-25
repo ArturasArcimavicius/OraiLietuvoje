@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <title>Orai - Orų Prognozė</title>
+    <title>Miestai - Orai</title>
 </head>
-
 <body class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -31,14 +29,12 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="h3 pt-4">
-            Didžiausieji miestai:
-        </div>
-        <div id="cityForecasts" class="row g-3 mt-2"></div>
+
+    <div class="container py-5">
+        <h1 class="mb-4">Miestai pagal savivaldybes</h1>
+        <div id="citiesByMunicipality" class="row g-3"></div>
     </div>
 
-    <script src="js/script.js"></script>
+    <script src="js/miestai.js"></script>
 </body>
-
 </html>
