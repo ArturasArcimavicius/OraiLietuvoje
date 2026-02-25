@@ -59,7 +59,7 @@ function displayCityForecast(forecast) {
     const container = document.getElementById('cityForecast');
     const place = forecast.place;
     
-    // Get next 5 forecasts
+
     const upcomingForecasts = forecast.forecastTimestamps.slice(0, 5);
     
     let forecastHTML = `
