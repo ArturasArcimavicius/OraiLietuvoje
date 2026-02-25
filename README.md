@@ -1,1 +1,1 @@
-Oru prognozes programa naudojant meteo.lt api
+Oru prognozes programa naudojant api.meteo.lt api
